@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:'Arial', Helvetica, sans-serif;
+}
+header, nav{
+    background-color: beige;
+    color:darkgreen;
+    padding: 20px;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a{
+    color:darkgreen;
+    text-decoration: none;
+}
+nav ul li:last-child{
+    margin-right: 0;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+section{
+    width: 70%;
+}
+article{
+    width: 65%;
+    background-color:antiquewhite;
+}
+aside ul{
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+footer{
+    background-color: beige;
+    color:darkgreen;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+header img{
+    display: inline-block;
+    vertical-align: middle; /*Alinha verticalmente a imagem com o texto*/
+    width: 100px;/*Define a largura da imagem*/
+    height: auto;/*Mantém a proporção da imagem*/
+}
+header h1{
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;/*Alinha verticalmente o texto com a imagem*/
+}
+/*Estilizando o evento hovoer*/
+ul li a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    background: lightgreen;
+
+}
+ul li a:visited{
+    background: lightgreens;
+}

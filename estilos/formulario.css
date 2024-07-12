@@ -1,0 +1,33 @@
+#formulario{
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: beige;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2.5px solid darkgreen;
+}
+h2{
+    text-align: center;
+}
+input[type="text"],
+input[type="email"],
+textarea,
+select{
+    width: 100%;
+    display: inline-block;
+    margin: 6px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type="submit"]{
+    background-color: beige;
+    color: darkgreen;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
